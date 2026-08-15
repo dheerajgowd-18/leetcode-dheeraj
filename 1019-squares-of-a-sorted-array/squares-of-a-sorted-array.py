@@ -7,8 +7,10 @@ class Solution(object):
         res = []
         for i in range(len(nums)):
             res.append(nums[i]**2)
-            res.sort()
+        res.sort()
         return res
+            
+        
             
 
 
